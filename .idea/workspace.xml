@@ -32,15 +32,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/MiddleJava/src/com/raphael/expression/ExpressionMain.java" />
-        <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/generic/GenericMain.java" />
-        <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/inner/InnerMain.java" />
-        <option value="$PROJECT_DIR$/MiddleJava/src/com/raphael/reflection/ReflectionMain.java" />
-        <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/decorate/DecorateMain.java" />
-        <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/word/WordMain.java" />
-        <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/object/ObjectMain.java" />
-        <option value="$PROJECT_DIR$/MiddleJava/src/com/raphael/collection/CollectionMain.java" />
-        <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/oop/OopMain.java" />
         <option value="$PROJECT_DIR$/MiddleJava/src/com/raphael/memory/MemoryMain.java" />
         <option value="$PROJECT_DIR$/MiddleJava/src/com/raphael/loader/LoaderMain.java" />
         <option value="$PROJECT_DIR$/MiddleJava/src/com/raphael/gc/G从Main.java" />
@@ -81,8 +72,17 @@
         <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/statement/StatementMain.java" />
         <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/initial/Father.java" />
         <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/initial/Son.java" />
-        <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/initial/InitialMain.java" />
         <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/array/ArrayMain.java" />
+        <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/oop/OopMain.java" />
+        <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/oop/MyAbstract.java" />
+        <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/oop/YourAbstract.java" />
+        <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/decorate/Son.java" />
+        <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/decorate/Father.java" />
+        <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/decorate/GrandFather.java" />
+        <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/initial/InitialMain.java" />
+        <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/decorate/DecorateMain.java" />
+        <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/generic/GenericMain.java" />
+        <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/generic/Box.java" />
       </list>
     </option>
   </component>
@@ -414,7 +414,7 @@
     </configuration>
     <configuration default="false" name="test-in-all" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.raphael.array.ArrayMain" />
+      <option name="MAIN_CLASS_NAME" value="com.raphael.generic.Box" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -459,12 +459,12 @@
       <workItem from="1420542143234" duration="3653000" />
       <workItem from="1420551949239" duration="3616000" />
       <workItem from="1420596519541" duration="4641000" />
-      <workItem from="1420606655134" duration="4939000" />
+      <workItem from="1420606655134" duration="9073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26079000" />
+    <option name="totallyTimeSpent" value="30213000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -513,7 +513,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2489339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30943024" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31630647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -575,69 +575,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MiddleJava/src/com/raphael/collection/CollectionMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.092929296" vertical-offset="0" max-vertical-offset="990">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/object/ObjectMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.116161615" vertical-offset="0" max-vertical-offset="990">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/word/WordMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.116161615" vertical-offset="0" max-vertical-offset="990">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MiddleJava/src/com/raphael/reflection/ReflectionMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.092929296" vertical-offset="0" max-vertical-offset="990">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/reference/ReferenceMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.092929296" vertical-offset="0" max-vertical-offset="990">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MiddleJava/src/com/raphael/loader/LoaderMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.116161615" vertical-offset="0" max-vertical-offset="990">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MiddleJava/src/com/raphael/memory/MemoryMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.092929296" vertical-offset="0" max-vertical-offset="990">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/oop/OopMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2090909" vertical-offset="0" max-vertical-offset="990">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MiddleJava/src/com/raphael/gc/GcMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.092929296" vertical-offset="0" max-vertical-offset="990">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AdvanceJava/src/com/raphael/annotation/AnnotationMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="322">
@@ -789,13 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/construct/ConstructMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38685015" vertical-offset="0" max-vertical-offset="654">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/construct/B.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24617738" vertical-offset="0" max-vertical-offset="654">
@@ -874,13 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/decorate/DecorateMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14814815" vertical-offset="0" max-vertical-offset="567">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/statement/StatementMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.9105691" vertical-offset="72" max-vertical-offset="1365">
@@ -918,23 +841,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/initial/InitialMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36646885" vertical-offset="6" max-vertical-offset="1380">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1282#1283#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/array/ArrayMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14688428" vertical-offset="683" max-vertical-offset="1495">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/oop/YourAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23887241" vertical-offset="0" max-vertical-offset="674">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/oop/MyAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34124628" vertical-offset="0" max-vertical-offset="674">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/oop/OopMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17062314" vertical-offset="0" max-vertical-offset="674">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/construct/ConstructMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37537092" vertical-offset="0" max-vertical-offset="674">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/oop/Father.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17062314" vertical-offset="0" max-vertical-offset="674">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/decorate/Son.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/decorate/GrandFather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16178195" vertical-offset="0" max-vertical-offset="853">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/decorate/Father.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35052755" vertical-offset="0" max-vertical-offset="853">
+          <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/reference/ReferenceMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10785463" vertical-offset="0" max-vertical-offset="853">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/decorate/DecorateMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.91785717" vertical-offset="678" max-vertical-offset="1702">
+          <caret line="63" column="46" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/initial/InitialMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.27667058" vertical-offset="351" max-vertical-offset="1311">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/word/WordMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1887456" vertical-offset="0" max-vertical-offset="853">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/generic/Box.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13793103" vertical-offset="0" max-vertical-offset="759">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#298#307#0" expanded="true" />
+            <element signature="e#350#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicJava/src/com/raphael/generic/GenericMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20689656" vertical-offset="0" max-vertical-offset="874">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
           <folding />
         </state>
       </provider>
