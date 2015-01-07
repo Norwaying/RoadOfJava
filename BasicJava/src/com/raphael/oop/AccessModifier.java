@@ -14,6 +14,11 @@ public class AccessModifier {
     //不同包中非子类(通用)   public
 
 
+
+    //什么范围内,不管什么,对(public,protected,default,private)的访问权限
+
+
+
     //public   何时何地都能访问
     //protected同一包中所有(子类,非子类)访问+不同包中子类访问
     //default  同一包中所有(子类,非子类)访问
@@ -25,6 +30,7 @@ public class AccessModifier {
 
 
     /**************the same class(不管什么都可以访问)***********************************/
+    //[public]
     void TheSameClass2Public(){
         System.out.println(public_x);   //this.public_x?
     }
@@ -37,6 +43,7 @@ public class AccessModifier {
         System.out.println(default_x);
     }
 
+    //[private]
     void TheSameClass2Private(){
         System.out.println(private_x);
     }
