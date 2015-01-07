@@ -1,3 +1,6 @@
 Hello Everyone.
 This is the road of Raphael's java.
-Friday: dev->master
+
+Attention:
+Friday: dev -> master(merge)
+Other:  dev <-> dev(development)

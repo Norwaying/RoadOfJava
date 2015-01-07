@@ -10,4 +10,10 @@ package com.raphael.oop;
  *
  */
 public class OopMain {
+    public static void main(String[] args){
+        /***包访问权只能同一个包下访问***/
+        TestClass tc = new TestClass();
+        tc.test();
+    }
+
 }
