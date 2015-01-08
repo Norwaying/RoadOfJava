@@ -20,7 +20,7 @@ public class RandomClient {
 
 
                 InputStream is = client.getInputStream();//从服务器读
-                byte buffer[] = new byte[1024];
+                byte buffer[] = new byte[1024]; //1M
                 is.read(buffer);
                 System.out.println(new String(buffer));
 

@@ -32,7 +32,7 @@ public class TheDifferentPackageInherit extends TheSameClass {
 
         //方式二(父类和子类位于不同的包中,父类的protected成员,对于父类本身是不可见的,只有子类对象才能访问.)
         TheSameClass tsc = new TheSameClass();  //不同包调用非子类!
-        //error
+        //error//龟腚:protected即本类可以访问，同一包内的可以访问，子类可以访问
         //System.out.println(tsc.protected_x);
     }
     public static void main(String[] args) throws ClassNotFoundException {
