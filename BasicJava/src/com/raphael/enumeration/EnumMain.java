@@ -28,4 +28,7 @@ public class EnumMain {
     public enum Season{ //类似于内部类
         SPRING,SUMMER,AUTUMN,WINTER
     }
+    public enum Day{
+        MORNING,AFTERNOON,EVENING
+    }
 }
