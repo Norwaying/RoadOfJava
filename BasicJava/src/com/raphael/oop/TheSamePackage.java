@@ -4,13 +4,21 @@ package com.raphael.oop;
  * Created by Nov on 2015/1/7.
  */
 public class TheSamePackage {
-    void TheSamePackage2Public(){
-        AccessModifier am = new AccessModifier();
+    public static void main(String[] args){
+
+    }
+    void TheSamePackage_Any_To_Public(){
+        TheSameClass tsc = new TheSameClass();
         //[public]
-        System.out.println(am.public_x);
-        System.out.println(am.protected_x);
-        System.out.println(am.default_x);
+        System.out.println(tsc.public_x);
+
+        //[protected]
+        System.out.println(tsc.protected_x);
+
+        //[default]
+        System.out.println(tsc.default_x);
+
         //[private] X
-//        System.out.println(am.private_x);
+        //System.out.println(tsc.private_x);
     }
 }
