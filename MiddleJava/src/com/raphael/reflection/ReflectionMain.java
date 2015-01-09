@@ -2,6 +2,7 @@ package com.raphael.reflection;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
@@ -10,7 +11,7 @@ import java.lang.reflect.Method;
  * Class类
  */
 public class ReflectionMain {
-    public static void main(String[] args) throws ClassNotFoundException {
+    public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InstantiationException, InvocationTargetException {
         //Class类代表java类，它的各个实例对象对应了各个类在内存中的字节码（类装载,不是创建对象）
         //一个类被类加载器加载到内存中，占用一片存储空间，这个空间里面的内容就是类的字节码，
         //不同的类的字节码是不同的，所以他们在内存中的内容是不一样的。
@@ -51,6 +52,17 @@ public class ReflectionMain {
         System.out.println("fields:");
         for(Field f : fields)
             System.out.println(f);
+
+
+        /*******************instance实例方法*************************************/
+        Method mx = c4.getDeclaredMethod("x",int.class,String.class);
+        mx.invoke(c4.newInstance(),1000,"dlut");
+
+        /********************static静态方法**************************************/
+        Method my = c4.getDeclaredMethod("y",int.class,String.class);
+//        my.invoke(c4.newInstance(),2000);       //1法
+//        my.invoke(c4,3000,"sdu");                       //2法
+        my.invoke(null,4000,"hit");                //3法
 
     }
 }

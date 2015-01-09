@@ -28,4 +28,13 @@ public class ReflectionSample {
         this.aa = aa;
         this.aaa = aaa;
     }
+
+
+    public void x(int x, String xx){
+        System.out.println("x="+x+" is "+xx);
+    }
+
+    public static void y(int y, String yy){
+        System.out.println("y="+y+" is "+yy);
+    }
 }
