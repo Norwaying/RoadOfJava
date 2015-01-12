@@ -10,7 +10,7 @@ public class JdbcMain {
 //    private static final String DRIVER = "com.mysql.jdbc.Driver";
     private static final String URL = "jdbc:mysql://localhost:3306/test";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "luwei";
+    private static final String PASSWORD = "*****";
     public static void main(String[] args){
         Connection connection = null;
         Statement statement = null;

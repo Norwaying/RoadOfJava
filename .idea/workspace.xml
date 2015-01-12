@@ -68,7 +68,6 @@
         <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/decorate/DecorateMain.java" />
         <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/construct/C.java" />
         <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/construct/D.java" />
-        <option value="$PROJECT_DIR$/MiddleJava/src/com/raphael/jdbc/JdbcMain.java" />
         <option value="$PROJECT_DIR$/MiddleJava/src/com/raphael/loader/LoaderMain.java" />
         <option value="$PROJECT_DIR$/MiddleJava/src/com/raphael/loader/FileSystemClassLoader.java" />
         <option value="$PROJECT_DIR$/BasicJava/src/com/raphael/generic/GenericMain.java" />
@@ -88,6 +87,7 @@
         <option value="$PROJECT_DIR$/MiddleJava/src/com/raphael/io/MemoryStringExample.java" />
         <option value="$PROJECT_DIR$/MiddleJava/src/com/raphael/io/PipeExample.java" />
         <option value="$PROJECT_DIR$/MiddleJava/src/com/raphael/io/MemoryArrayExample.java" />
+        <option value="$PROJECT_DIR$/MiddleJava/src/com/raphael/jdbc/JdbcMain.java" />
       </list>
     </option>
   </component>
@@ -150,6 +150,56 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="RoadOfJava" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RoadOfJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MiddleJava" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RoadOfJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MiddleJava" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raphael" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RoadOfJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MiddleJava" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raphael" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbc" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -517,12 +567,12 @@
       <workItem from="1420948876536" duration="33000" />
       <workItem from="1420948943185" duration="7237000" />
       <workItem from="1421024012176" duration="11108000" />
-      <workItem from="1421039790214" duration="9556000" />
+      <workItem from="1421039790214" duration="9693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113055000" />
+    <option name="totallyTimeSpent" value="113192000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -770,14 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MiddleJava/src/com/raphael/jdbc/JdbcMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67474747" vertical-offset="114" max-vertical-offset="1311">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MiddleJava/src/com/raphael/reflection/ReflectionMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.67041963" vertical-offset="656" max-vertical-offset="1633">
@@ -796,6 +838,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.7877095" vertical-offset="2476" max-vertical-offset="71415">
           <caret line="118" column="10" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1029,6 +1072,17 @@
         <state vertical-scroll-proportion="0.122503325" vertical-offset="0" max-vertical-offset="751">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MiddleJava/src/com/raphael/jdbc/JdbcMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21571238" vertical-offset="114" max-vertical-offset="1311">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <marker date="1421049806111" expanded="true" signature="-1:-1" placeholder="select * fro..stu..." />
+            <marker date="1421049806111" expanded="true" signature="-1:-1" placeholder="update stu s..." />
+          </folding>
         </state>
       </provider>
     </entry>
