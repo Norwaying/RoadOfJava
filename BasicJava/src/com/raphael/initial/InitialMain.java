@@ -7,6 +7,10 @@ package com.raphael.initial;
  */
 public class InitialMain {
     public static void  main(String[] args){
+        /*
+        系统默认值（准备阶段）
+        初始化（开始执行JAVA代码）
+         */
         //所谓初始化,当然也就指的是变量.变量可以是内置的变量(int)或者我们创建的类的对象(Person()).
         // 1.值域(Java虚拟机会自动进行初始化),
         // 2.方法局部变量(必须明确进行初始化,否则出现编译错误),
