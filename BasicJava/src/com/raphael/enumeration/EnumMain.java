@@ -25,7 +25,7 @@ public class EnumMain {
                 break;
         }
     }
-    public enum Season{ //类似于内部类
+    public enum Season{ //类似于内部类(而且是成员内部类)
         SPRING,SUMMER,AUTUMN,WINTER
     }
     public enum Day{

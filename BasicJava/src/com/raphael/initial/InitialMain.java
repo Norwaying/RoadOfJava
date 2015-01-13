@@ -9,7 +9,7 @@ public class InitialMain {
     public static void  main(String[] args){
         /*
         系统默认值（准备阶段）
-        初始化（开始执行JAVA代码）
+        初始化（开始执行JAVA代码）什么才叫做初始化（指的我们去赋值）
          */
         //所谓初始化,当然也就指的是变量.变量可以是内置的变量(int)或者我们创建的类的对象(Person()).
         // 1.值域(Java虚拟机会自动进行初始化),
@@ -22,8 +22,8 @@ public class InitialMain {
 //        func(2);
         //3.值域(实例变量或者静态变量)(称为属性更好理解)
         InitialMain im = new InitialMain();
-        System.out.println("instance var x is "+im.x);
-        System.out.println("static var y is "+im.y);
+        System.out.println("instance var x is "+im.x); //未初始化
+        System.out.println("static var y is "+im.y);  //未初始化
 
         System.out.println("**************************");
         new Son();
@@ -33,6 +33,8 @@ public class InitialMain {
 //        this is father's construct block.
 //        this is son's initialization block.
 //        this is son's construct block.
+        System.out.println("**************************");
+        new Son();
     }
     public static void func(int b){
         System.out.println(b);
@@ -45,7 +47,7 @@ public class InitialMain {
 
     //静态初始化块1
     static{
-        System.out.println("1.static block");
+        System.out.println("1.static block");   //只执行一次
     }
     //构造函数3
     InitialMain(){

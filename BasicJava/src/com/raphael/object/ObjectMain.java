@@ -49,5 +49,12 @@ public class ObjectMain {
         else
             System.out.println("e3和e4是不同的对象");
 
+        String s1 = new String("hello world");
+        String s2 = new String("hello world");
+        if(s1.equals(s2))
+            System.out.println("s1串和s2串相同");    //根本原因是String类重写了Object的equals()方法，逻辑上比较。
+        else
+            System.out.println("s2串和s2串不同");
+
     }
 }

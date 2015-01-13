@@ -8,11 +8,15 @@ package com.raphael.decorate;
 //Final类不允许继承
 public class Father{
     public void A(){
-
+        System.out.println("father.a");
     }
 
     public final void B(){  //final方法比非final方法要快，因为在编译的时候已经静态绑定了，不需要在运行时再动态绑定。
+        System.out.println("father.b");
+    }
 
+    public static void C(){
+        System.out.println("father.c");
     }
 }
 
