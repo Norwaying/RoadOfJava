@@ -6,10 +6,6 @@
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/test</jdbc-url>
-      <user-name>root</user-name>
-      <user-password>dfc6dfdfdfdddfcfdfc3</user-password>
-      <schema-pattern>test.*</schema-pattern>
-      <default-schemas>test.*</default-schemas>
       <driver-properties>
         <property name="zeroDateTimeBehavior" value="convertToNull" />
         <property name="tinyInt1isBit" value="false" />
@@ -18,4 +14,3 @@
     </data-source>
   </component>
 </project>
-
