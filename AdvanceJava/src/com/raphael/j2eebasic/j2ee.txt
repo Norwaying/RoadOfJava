@@ -1,0 +1,9 @@
+规范和api
+1.核心
+    EJB Servlet JSP
+
+2.与服务相关
+    JNDI JDBC JTS JTA JMS
+
+3.支持规范
+    JavaMail JAF J2ee Connector Architecture
