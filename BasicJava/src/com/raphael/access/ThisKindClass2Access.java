@@ -7,7 +7,7 @@ package com.raphael.access;
  *
  * private：仅对本类是可见的；
  * public：对所有类都是可见的；
- * protected：对本包(package)及所有子类是可见的；
+ * protected：对本包(package)及所有子类（本包继承或者不同包继承）是可见的；
  * default：对本包内的所有类是可见的；
  *
  * 何为可见性（来自网络）
@@ -17,7 +17,7 @@ package com.raphael.access;
  *
  * [也变相回答了访问限定对继承的影响]
  */
-public class ThisKindClass2Access {
+public class ThisKindClass2Access { //重名，即覆盖时不能缩小访问权限。
     private int private_x;
     int default_x;
     protected int protected_x;

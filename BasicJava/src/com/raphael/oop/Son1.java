@@ -29,12 +29,12 @@ public class Son1 extends Father1{
         System.out.println(f1.name);
 //        f1.test();    //失去自身非覆盖的方法
 
-
+        System.out.println("******************");
         //这里肯定是调用父类的，与子类毫无关系。
         Father1 f2 = new Father1();
         f2.showName();
         System.out.println(f2.name);
-
+        System.out.println("******************");
 
         //只有当父类引用子类对象时才会出现这一系列问题
         Son1 s1 = new Son1();
@@ -42,6 +42,8 @@ public class Son1 extends Father1{
         System.out.println(s1.name);
         s1.myFunc();
         System.out.println(s1.age);
+
+        System.out.println("******************");
 
         Father1 f3 = s1;     //关键一步 向上转型！！！
         f3.myFunc();    //可以继续访问父类隐藏的静态方法    （隐藏）
